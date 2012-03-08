@@ -131,49 +131,49 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 8, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 8, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 body {
   line-height: 1;
   font-family: "Lucida Grande", sans-serif;
   font-size: 13px;
 }
 
-/* line 13, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 13, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 16, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 16, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 20, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 20, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 24, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 24, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 30, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 30, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 body, html {
   color: #777;
   background-color: #F2F4F5;
 }
 
-/* line 35, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 35, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 .sc-view {
   position: relative;
   overflow: visible;
 }
 
-/* line 40, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 40, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 .sc-button {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #f9f9f9), color-stop(34%, #dddddd), color-stop(67%, #f2f2f2), color-stop(100%, #f7f7f7));
   background-image: -webkit-linear-gradient(#f9f9f9 1%, #dddddd, #f2f2f2, #f7f7f7);
@@ -186,7 +186,7 @@ body, html {
   padding: 0 5px;
 }
 
-/* line 51, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 51, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 0 1px;
@@ -207,12 +207,12 @@ body, html {
   background-color: #fff;
   padding: 40px 10px 10px;
 }
-/* line 67, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 67, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos .mark-all-done label {
   margin-left: 5px;
   font-weight: bold;
 }
-/* line 72, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 72, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos #stats {
   overflow: hidden;
   width: 100%;
@@ -223,11 +223,11 @@ body, html {
   border-bottom: 1px solid #aaa;
   line-height: 25px;
 }
-/* line 82, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 82, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos #stats .remaining {
   float: left;
 }
-/* line 86, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 86, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos #stats .sc-button {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #f9f9f9), color-stop(34%, #dddddd), color-stop(67%, #f2f2f2), color-stop(100%, #f7f7f7));
   background-image: -webkit-linear-gradient(#f9f9f9 1%, #dddddd, #f2f2f2, #f7f7f7);
@@ -239,7 +239,7 @@ body, html {
   float: right;
   padding: 0 5px;
 }
-/* line 93, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 93, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos #stats .sc-button:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #ffffff), color-stop(34%, #e2e2e2), color-stop(67%, #f7f7f7), color-stop(100%, #fcfcfc));
   background-image: -webkit-linear-gradient(#ffffff 1%, #e2e2e2, #f7f7f7, #fcfcfc);
@@ -247,7 +247,7 @@ body, html {
   background-image: -o-linear-gradient(#ffffff 1%, #e2e2e2, #f7f7f7, #fcfcfc);
   background-image: linear-gradient(#ffffff 1%, #e2e2e2, #f7f7f7, #fcfcfc);
 }
-/* line 97, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 97, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos #stats .sc-button.is-active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #efefef), color-stop(34%, #d3d3d3), color-stop(67%, #e8e8e8), color-stop(100%, #ededed));
   background-image: -webkit-linear-gradient(#efefef 1%, #d3d3d3, #e8e8e8, #ededed);
@@ -255,7 +255,7 @@ body, html {
   background-image: -o-linear-gradient(#efefef 1%, #d3d3d3, #e8e8e8, #ededed);
   background-image: linear-gradient(#efefef 1%, #d3d3d3, #e8e8e8, #ededed);
 }
-/* line 103, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 103, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos input[type='text'] {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -276,11 +276,11 @@ body, html {
   border: 1px solid #bbbbbb;
   font-weight: 500;
 }
-/* line 115, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 115, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos input[type='text']::-webkit-input-placeholder {
   color: #aaa;
 }
-/* line 120, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 120, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos h1 {
   -moz-border-radius-topleft: 8px;
   -webkit-border-top-left-radius: 8px;
@@ -310,24 +310,24 @@ body, html {
   padding: 5px 10px;
   border-bottom: 1px solid #bbbbbb;
 }
-/* line 137, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 137, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos .sc-checkbox input[type="checkbox"] {
   margin-right: 7px;
 }
-/* line 142, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 142, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos ul {
   margin: 10px 0 2px 0;
 }
-/* line 145, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 145, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos ul li {
   padding: 5px;
 }
-/* line 148, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 148, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos ul li.is-done {
   color: #B7B7B7;
   text-decoration: line-through;
 }
-/* line 154, tmp/chance/C_/Documents_and_Settings/Administrator_VMHOST001/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
+/* line 154, tmp/chance/C_/Documents_and_Settings/Administrator/Desktop/ScPos/tmp/debug/staging/static/sc_pos/en/current/resources/stylesheets/sc_pos_css.scss */
 #todos ul li:nth-child(odd) {
   background-color: #F7F7F7;
 }
