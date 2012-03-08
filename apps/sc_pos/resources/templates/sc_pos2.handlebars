@@ -1,0 +1,13 @@
+<h1>Pane2!</h1>
+{{#view ScPos.CreateItemView}}
+<input id="new-item" type="text"
+       placeholder="What needs to be done?" />
+{{/view}}
+{{#collection SC.TemplateCollectionView contentBinding="ScPos.itemListController"}}
+  {{content.name}}
+{{/collection}}
+<div id="loginPageButtonContainer">
+{{#view SC.Button classBinding="isActive" target="ScPos.itemListController" action="openPage"}}
+    Open new page
+{{/view}}
+</div>
