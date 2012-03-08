@@ -163,3 +163,12 @@ $border: 1px solid #bbb;
     }
   }
 }
+
+/* Login Page Syles */
+
+#loginPageButtonContainer {
+  width: 200px;
+	height: 30px;
+	background-color: red;
+	padding: 5px;
+}

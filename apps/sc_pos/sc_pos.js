@@ -36,6 +36,6 @@ ScPos.itemListController = SC.ArrayController.create({
     this.pushObject(item);
   },
   openPage: function(name) {
-    alert("HEY!");
+    ScPos.mainPane.remove();
   }
 });
