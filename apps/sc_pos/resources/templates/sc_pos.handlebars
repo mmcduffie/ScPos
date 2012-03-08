@@ -6,3 +6,6 @@
 {{#collection SC.TemplateCollectionView contentBinding="ScPos.itemListController"}}
   {{content.name}}
 {{/collection}}
+{{#view SC.Button classBinding="isActive" target="ScPos.itemListController" action="openPage"}}
+    Open new page
+{{/view}}

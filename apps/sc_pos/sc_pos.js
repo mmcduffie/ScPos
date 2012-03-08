@@ -34,5 +34,8 @@ ScPos.itemListController = SC.ArrayController.create({
   createItem: function(name) {
     var item = ScPos.Item.create({ name: name });
     this.pushObject(item);
+  },
+  openPage: function(name) {
+    alert("HEY!");
   }
 });
