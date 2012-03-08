@@ -1,0 +1,1 @@
+SC.TEMPLATES["sc_pos"] = SC.Handlebars.compile("<h1>Items</h1>\n{{#view ScPos.CreateItemView}}\n<input id=\"new-item\" type=\"text\"\n       placeholder=\"What needs to be done?\" />\n{{/view}}\n{{#collection SC.TemplateCollectionView contentBinding=\"ScPos.itemListController\"}}\n  {{content.name}}\n{{/collection}}");

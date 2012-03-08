@@ -1,0 +1,8 @@
+<h1>Items</h1>
+{{#view ScPos.CreateItemView}}
+<input id="new-item" type="text"
+       placeholder="What needs to be done?" />
+{{/view}}
+{{#collection SC.TemplateCollectionView contentBinding="ScPos.itemListController"}}
+  {{content.name}}
+{{/collection}}
