@@ -46,11 +46,11 @@ ScPos.itemListController = SC.ArrayController.create({
     var item = ScPos.Item.create({ name: name });
     this.pushObject(item);
   },
-  openPage: function(name) {
+  login: function(name) {
     ScPos.mainPane.remove();
 		ScPos.pane2 = SC.TemplatePane.append({
-      layerId: 'sc_pos2',
-      templateName: 'sc_pos2'
+      layerId: 'sc_pos_main_menu',
+      templateName: 'sc_pos_main_menu'
     });
   }
 });
