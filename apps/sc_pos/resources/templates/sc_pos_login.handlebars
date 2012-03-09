@@ -1,0 +1,12 @@
+<div id="sc_pos_login_box">
+<h1>Login to sc-pos</h1>
+{{#view ScPos.CreateItemView}}
+<input id="username" type="text" placeholder="username" />
+{{/view}}
+{{#view ScPos.LoginPassView}}
+<input id="password" type="password" placeholder="password" />
+{{/view}}
+{{#view SC.Button classBinding="isActive" target="ScPos.itemListController" action="openPage"}}
+    Login
+{{/view}}
+</div>

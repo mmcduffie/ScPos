@@ -53,21 +53,22 @@ body, html {
 }
 	  
 $width: 600px;
+$loginbox_width: 400px;
 $border: 1px solid #bbb;
 
-#todos {
-  @include box-shadow(rgba(0,0,0,0.6) 0 0 1px);
+#sc_pos_login_box {
+  @include box-shadow(rgba(0,0,0,0.6) 0 0 5px);
   @include border-radius(8px);
 
   $padding: 10px;
   $header-height: 20px;
 
   position: absolute;
-  width: $width;
+  width: $loginbox_width;
   left: 50%;
   margin-top: 38px;
   border: $border;
-  margin-left: -300px;
+  margin-left: -220px;
   background-color: #fff;
   padding: ($header-height + $padding * 2) $padding $padding;
 
@@ -109,15 +110,34 @@ $border: 1px solid #bbb;
 
   input[type='text'] {
     @include border-radius(5px);
-    @include single-box-shadow(rgba(0,0,0,0.6), 0, 0, 10px, -2px);
+    @include single-box-shadow(rgba(0,0,0,0.6), 0, 0, 5px, -2px);
     color: #999;
     background-color: rgb(240,240,240);
-    width: $width - ($padding) - 2px;
-    font-size: 30px;
+    width: $loginbox_width - ($padding) - 2px;
+    font-size: 15px;
     font-family: Helvetica, sans-serif;
     padding: 5px;
     border: $border;
     font-weight: 500;
+	margin-bottom: 5px;
+
+    &::-webkit-input-placeholder {
+      color: #aaa;
+    }
+  }
+  
+  input[type='password'] {
+    @include border-radius(5px);
+    @include single-box-shadow(rgba(0,0,0,0.6), 0, 0, 5px, -2px);
+    color: #999;
+    background-color: rgb(240,240,240);
+    width: $loginbox_width - ($padding) - 2px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    padding: 5px;
+    border: $border;
+    font-weight: 500;
+	margin-bottom: 5px;
 
     &::-webkit-input-placeholder {
       color: #aaa;
@@ -131,7 +151,7 @@ $border: 1px solid #bbb;
 
     font-size: 15px;
     position: absolute;
-    width: $width;
+    width: $loginbox_width;
     height: $header-height;
     color: rgb(83,86,94);
     top: 0;
@@ -162,13 +182,4 @@ $border: 1px solid #bbb;
       background-color: #F7F7F7;
     }
   }
-}
-
-/* Login Page Syles */
-
-#loginPageButtonContainer {
-  width: 200px;
-	height: 30px;
-	background-color: red;
-	padding: 5px;
 }

@@ -22,10 +22,21 @@ ScPos.CreateItemView = SC.TextField.extend({
   }
 });
 
+ScPos.LoginPassView = SC.TextField.extend({
+  insertNewline: function() {
+    var value = this.get('value');
+ 
+    if (value) {
+      ScPos.itemListController.createItem(value);
+      this.set('value', '');
+    }
+  }
+});
+
 SC.ready(function() {
   ScPos.mainPane = SC.TemplatePane.append({
-    layerId: 'sc_pos',
-    templateName: 'sc_pos'
+    layerId: 'sc_pos_login',
+    templateName: 'sc_pos_login'
   });
 });
 
